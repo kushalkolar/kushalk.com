@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>"Neuroscience, Python and Linux stuff" | rsync is your friend</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="" />
+    <meta name="author" content=""Kushal Kolar"" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="/">"Neuroscience, Python and Linux stuff"</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">            <h4 class="date">Mar 05, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="/rsync-is-your-friend.html" rel="bookmark" title="Permanent Link to &quot;rsync is your friend&quot;">rsync is your friend</a>
+                </h2>
+
+                
+                
+
+                <p><code>rsync</code> is a great and easy tool to manage backups of directories on linux filesystems! When you use <code>rsync</code>, it only copies over new data, so it allows you to easily maintain your backups much more efficiently. Therefore you don't have to overwrite massive amounts of data when updating an existing backup.</p>
+<p>Basic Usage:</p>
+<div class="highlight"><pre><span></span><code>rsync -avP &lt;source&gt; &lt;destination&gt;
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>rsync -avP /work/myself/my_precious_project /share/data/archive/my_precious_project_backup
+</code></pre></div>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="/rsync-is-your-friend.html">posted at 13:00</a>
+                    &nbsp;&middot;&nbsp;<a href="/category/linux.html" rel="tag">Linux</a>
+                </div>
+            </article>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
